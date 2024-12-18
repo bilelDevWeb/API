@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Liste des Communes par Région et Département</h1>
+
+    <form action="">
+        <label for="region-select">Sélectionnez une région :</label>
+        <select id="region-select">
+            <option value="">-- Choisissez une région --</option>
+        </select>
+    
+        <label for="department-select">Sélectionnez un département :</label>
+        <select id="department-select" disabled>
+            <option value="">-- Choisissez un département --</option>
+        </select>
+    
+        <button id="show-communes" disabled>Afficher les communes</button>
+    
+        <div id="commune-list"></div>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+</html>
